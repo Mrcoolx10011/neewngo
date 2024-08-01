@@ -79,9 +79,9 @@ import { NextApiRequest, NextApiResponse } from "next";
     //   // }
 
     // },
-secret: process.env.NEXTAUTH_SECRET
-DATABASE_URL=process.env.DATABASE_URL
-NEXTAUTH_URL=process.env.NEXTAUTH_URL
+secret: process.env.NEXTAUTH_SECRET ;
+DATABASE_URL=process.env.DATABASE_URL;
+NEXTAUTH_URL=process.env.NEXTAUTH_URL;
 
 
 // Define the handler using NextRequest and NextResponse
