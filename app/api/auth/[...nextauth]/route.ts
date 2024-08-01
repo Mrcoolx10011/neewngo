@@ -77,9 +77,9 @@ import { NextApiRequest, NextApiResponse } from "next";
     //   //     return false;
     //   //   }
     //   // }
-secret: process.env.NEXTAUTH_SECRET,
-    // },
 
+    // },
+secret: process.env.NEXTAUTH_SECRET
 
 
 // Define the handler using NextRequest and NextResponse
